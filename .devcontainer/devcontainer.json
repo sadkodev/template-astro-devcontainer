@@ -1,8 +1,10 @@
 {
   "name": "Astro",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "context": ".."
   },
+  "postCreateCommand": "pnpm i",
   "customizations": {
     "vscode": {
       "extensions": [
