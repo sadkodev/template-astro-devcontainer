@@ -1,24 +1,35 @@
 {
-  "name": "Astro",
+  "name": "Astro 0.1.1",
   "build": {
     "dockerfile": "Dockerfile",
     "context": ".."
   },
-  "postCreateCommand": "pnpm i",
+  "postCreateCommand": "pnpm i && npm run dev",
   "customizations": {
     "vscode": {
       "extensions": [
+        // Astro
         "astro-build.astro-vscode",
+        // Versionlens for versions in package.json
         "pflannery.vscode-versionlens",
+        // Tailwind CSS if you use it
         "bradlc.vscode-tailwindcss",
+        // auto import for components
         "steoates.autoimport",
+        // Code Spell Checker
         "streetsidesoftware.code-spell-checker",
+        // Spanish guys
+        "streetsidesoftware.code-spell-checker-spanish",
+        // French guys
+        "streetsidesoftware.code-spell-checker-french",
         "ms-azuretools.vscode-docker",
         "EditorConfig.EditorConfig",
         "dbaeumer.vscode-eslint",
+        // Figma plugin for UI design
         "figma.figma-vscode-extension",
-        "streetsidesoftware.code-spell-checker-french",
+        // path intellisense
         "christian-kohler.path-intellisense",
+        // Prisma support for VSCode
         "Prisma.prisma"
       ]
     }
