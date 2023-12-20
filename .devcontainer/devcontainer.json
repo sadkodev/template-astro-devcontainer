@@ -1,0 +1,24 @@
+{
+  "name": "Astro",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode",
+        "pflannery.vscode-versionlens",
+        "bradlc.vscode-tailwindcss",
+        "steoates.autoimport",
+        "streetsidesoftware.code-spell-checker",
+        "ms-azuretools.vscode-docker",
+        "EditorConfig.EditorConfig",
+        "dbaeumer.vscode-eslint",
+        "figma.figma-vscode-extension",
+        "streetsidesoftware.code-spell-checker-french",
+        "christian-kohler.path-intellisense",
+        "Prisma.prisma"
+      ]
+    }
+  }
+}
